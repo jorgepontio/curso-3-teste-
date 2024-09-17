@@ -15,7 +15,7 @@
     <section class="principal container">
         <div class="container__caixa">
             <h1 class="container__titulo">NETMOUNT+, aproveite o streaming do NBA com foco no Stephen Curry por um preço único.</h1>
-            <img src="img/stephen-curry-main.jpg" alt="Stephen Curry em ação" class="container__imagem">
+            <img src="images.jpg" alt="Stephen Curry em ação" class="container__imagem">
             <a href="https://www.alura.com.br" class="container__botao">Assine por 9,00 Reais mensais.</a>
             <a href="https://www.alura.com.br" class="container__botao botao_secundario">Ass</a>
             <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
