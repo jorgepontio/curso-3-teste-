@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,6 +30,14 @@
             height: auto;
             border-radius: 10px;
         }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: calc(33.333% - 10px);
+        }
     </style>
 </head>
 <body>
@@ -39,13 +46,19 @@
     </div>
     <div class="content">
         <div class="video">
-            <h2>Featured Video</h2>
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            <h2>Featured Videos</h2>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID3" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="photo">
             <h2>Gallery</h2>
-            <img src="https://example.com/stephen-curry-photo.jpg" alt="Stephen Curry">
-            <!-- Add more photos if needed -->
+            <div class="gallery">
+                <img src="https://example.com/stephen-curry-photo1.jpg" alt="Stephen Curry 1">
+                <img src="https://example.com/stephen-curry-photo2.jpg" alt="Stephen Curry 2">
+                <img src="https://example.com/stephen-curry-photo3.jpg" alt="Stephen Curry 3">
+                <!-- Add more photos if needed -->
+            </div>
         </div>
     </div>
 </body>
